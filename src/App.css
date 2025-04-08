@@ -1,0 +1,75 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #94d6e8aa);
+}
+
+
+
+.container {
+  display: flex;
+  padding: 2px;
+  background-color: white;
+  border: 1px solid #61dafb;;
+}
+
+.section  {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.main{
+  padding: 10px;
+  background-color: white;
+}
+
+.form-body  {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border: 1px solid #61dafb;;
+}
+
+input {
+  padding: 0.5em;
+  background-color: white;
+  height: 100%;
+  color: black;
+  font-size: 1.2em;
+  border: none;
+  margin: auto;
+}
+
+button {
+  font-size: 1.2em;
+  border: none;
+  height: 100%;
+  margin: auto;
+  color: white;
+  cursor: pointer;
+  background-color: #61dafb;
+
+}
+
+.button-div {
+  background-color: #61dafb;
+
+}
